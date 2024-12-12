@@ -1,0 +1,30 @@
+{
+    "library": {
+        "name": "City Library",
+        "address": { "city": "Metropolis", "zip": "45678" },
+        "sections": [
+            {
+                "name": "Fiction",
+                "books": [
+                    { "title": "The Miracle Morning", "author": "George Orwell" },
+                    { "title": "Brave New World", "author": "Aldous Huxley" }
+                ]
+            },
+            {
+                "name": "Science",
+                "books": [
+                    { "title": "A Brief History of Time", "author": "Stephen Hawking" },
+                    { "title": "The Gene", "author": "Siddhartha Mukherjee" }
+                ]
+            }
+        ]
+    },
+    "staff": [
+        { "id": 1, "name": "Alice", "role": "Librarian" },
+        { "id": 2, "name": "Bob", "role": "Assistant" }
+    ],
+    "events": [
+        { "event": "Book Fair", "date": "2024-12-10" },
+        { "event": "Science Expo", "date": "2024-12-15" }
+    ]
+}
